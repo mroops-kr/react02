@@ -66,11 +66,13 @@ npm install --save-dev eslint-plugin-jsonc
 3. eslint.config.js
 4. prettier.json
 
+## 기타
+
 ### 참조한 강의
 
 강의: https://www.youtube.com/watch?v=Yv5tSNr4h2c <br />
 소스: https://github.com/daffy3/YT-React <br />
 
-### Contact
+### Contact me
 
 mroops@naver.com
