@@ -1,4 +1,5 @@
 import styles from "~pages/index/styles/index.module.scss";
+import SearchBar from "~components/common/search/SearchBar";
 
 function index() {
   const CARD_LIST: Array<string> = [];
@@ -18,7 +19,7 @@ function index() {
               모든 지역에 있는 크리에이터들의 지원을 받습니다.
             </span>
             {/* 검색창 UI 부분 */}
-            {/* <CommonSearchBar /> */}
+            <SearchBar />
           </div>
         </div>
         <div className={styles.page__contents__imageBox}>{CARD_LIST}</div>

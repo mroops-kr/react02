@@ -1,7 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import styles from "./Header.module.scss";
+import logo from "~assets/images/image-logo.png";
 
-function CommonHeader() {
+function Header() {
   const navigate = useNavigate();
   // 북마크 페이지로 이동
   const moveToPage = (filter: string) => {
@@ -17,11 +18,7 @@ function CommonHeader() {
         className={styles.header__logoBox}
         onClick={() => moveToPage("main")}
       >
-        <img
-          src="/src/assets/images/image-logo.png"
-          alt=""
-          className={styles.header__logoBox__logo}
-        />
+        <img src={logo} alt="" className={styles.header__logoBox__logo} />
         <span className={styles.header__logoBox__title}>PhotoSplash</span>
       </div>
       <div className={styles.header__profileBox}>
@@ -40,4 +37,4 @@ function CommonHeader() {
   );
 }
 
-export default CommonHeader;
+export default Header;
