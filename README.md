@@ -37,7 +37,7 @@ npm install --save-dev eslint-plugin-jsonc
 
 ```json
 {
-  "editor.tabSize": 4,
+  "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "files.associations": {
@@ -63,7 +63,11 @@ npm install --save-dev eslint-plugin-jsonc
 3. eslint.config.js
 4. prettier.json
 
-## 참조
+## 참조한 소스
 
 강의: https://www.youtube.com/watch?v=Yv5tSNr4h2c <br />
 소스: https://github.com/daffy3/YT-React <br />
+
+## Contact
+
+mroops@naver.com
