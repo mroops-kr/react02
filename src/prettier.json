@@ -1,0 +1,27 @@
+{
+  // 코드에서 사용될 따옴표 유형을 설정합니다
+  "singleQuote": true,
+  // 객체의 속성을 정렬합니다
+  "quoteProps": "as-needed",
+  // 세미콜론 사용 여부를 설정합니다
+  "semi": true,
+  // 줄의 길이를 제한합니다
+  "printWidth": 80,
+  // 줄 끝의 스타일을 설정합니다 (lf, crlf, cr)
+  "endOfLine": "lf",
+  // 탭 대신 공백을 사용합니다
+  "useTabs": false,
+  // 들여쓰기 크기를 설정합니다
+  "tabWidth": 2,
+  // JSX에서 공백을 사용 여부를 설정합니다
+  "jsxBracketSameLine": false,
+  // JSX에서 부모 요소의 마지막 닫는 괄호를 새로운 줄에 위치시킬지 여부
+  "jsxSingleQuote": false,
+  // HTML 요소 속성에 대한 줄 끝 스타일
+  "htmlWhitespaceSensitivity": "ignore",
+  // CSS를 정리하는 방법을 설정합니다
+  "css": {
+    // 최소한의 공백을 유지하도록 설정합니다
+    "trailingComma": "all"
+  }
+}
