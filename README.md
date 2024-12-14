@@ -1,6 +1,6 @@
 # Router + Vite + Typescript 프로잭트
 
-created at : 2024-12-15
+created at : 2024-12-14
 
 ## 확장팩 설치
 
@@ -65,7 +65,7 @@ npm install --save-dev eslint-plugin-jsonc
 3. eslint.config.js
 4. prettier.json
 
-## 참조 강의
+## 참조
 
-https://www.youtube.com/watch?v=Yv5tSNr4h2c
-https://github.com/daffy3/YT-React
+강의: https://www.youtube.com/watch?v=Yv5tSNr4h2c <br />
+소스: https://github.com/daffy3/YT-React <br />
