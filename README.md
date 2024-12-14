@@ -8,9 +8,7 @@ ES7+ React/Redux/React-Native snippets
 
 ## 프로잭트 생성
 
-1. `d:`
-2. `cd D:\_PRJ\05.HANWHA\workspace-react`
-3. `npm create vite@latest`
+`npm create vite@latest`
 
 - √ Project name: ... react02
 - √ Select a framework: » React
