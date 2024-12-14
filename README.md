@@ -65,4 +65,7 @@ npm install --save-dev eslint-plugin-jsonc
 3. eslint.config.js
 4. prettier.json
 
-##
+## 참조 강의
+
+https://www.youtube.com/watch?v=Yv5tSNr4h2c
+https://github.com/daffy3/YT-React
