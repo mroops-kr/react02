@@ -18,21 +18,21 @@ ES7+ React/Redux/React-Native snippets
 
 ## 추가 설치 1
 
-npm install axios
-npm install recoil
-npm install --save-dev sass
-npm install react-router-dom
-npm install localforage
-npm install match-sorter
-npm install sort-by
-npm audit fix --force
-npm install @types/node
+npm install axios  
+npm install recoil  
+npm install --save-dev sass  
+npm install react-router-dom  
+npm install localforage  
+npm install match-sorter  
+npm install sort-by  
+npm audit fix --force  
+npm install @types/node  
 npm install react-simple-toasts
 
 ## 추가 설치 2
 
-npm install --save-dev eslint prettier eslint-config-prettier
-npm install --save-dev eslint-plugin-react eslint-plugin-react-hooks @typescript-eslint/eslint-plugin @typescript-eslint/parser
+npm install --save-dev eslint prettier eslint-config-prettier  
+npm install --save-dev eslint-plugin-react eslint-plugin-react-hooks @typescript-eslint/eslint-plugin @typescript-eslint/parser  
 npm install --save-dev eslint-plugin-jsonc
 
 ## .vscode/settings.json
