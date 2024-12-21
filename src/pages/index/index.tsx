@@ -1,15 +1,15 @@
 import styles from "~pages/index/styles/index.module.scss";
 import SearchBar from "~components/common/search/SearchBar";
+import Navigation from "~components/common/navigation/Navigation";
+import Footer from "~components/common/footer/Footer";
 
 function index() {
   const CARD_LIST: Array<string> = [];
 
   return (
     <div className={styles.page}>
-      {/* 공통 헤더 UI 부분 */}
-      {/* <CommonHeader /> */}
       {/* 공통 네비게이션 UI 부분 */}
-      {/* <CommonNav /> */}
+      <Navigation />
       <div className={styles.page__contents}>
         <div className={styles.page__contents__introBox}>
           <div className={styles.wrapper}>
@@ -25,7 +25,7 @@ function index() {
         <div className={styles.page__contents__imageBox}>{CARD_LIST}</div>
       </div>
       {/* 공통 푸터 UI 부분 */}
-      {/* <CommonFooter /> */}
+      <Footer />
       {/* {open && <DetailDialog data={imgData} handleDialog={setOpen} />} */}
     </div>
   );
